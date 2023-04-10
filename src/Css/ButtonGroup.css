@@ -1,0 +1,73 @@
+.buttongrp {
+  margin-right: 80px;
+  margin-top: -5px;
+}
+
+.buttongrp button {
+  display: inline-flex;
+  position: relative;
+  margin: 3px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  font-size: 13px;
+  border: 1px solid rgba(194, 191, 193, 1);
+  background-color: rgba(40, 35, 32, 1);
+  color: white;
+  font-weight: bold;
+  align-items: center;
+}
+
+.buttongrp button:hover {
+  background-color: white
+}
+
+.buttongrp button:hover i {
+  color: black;
+}
+
+.angledown {
+  position: absolute;
+  margin-left: 65px;
+  margin-top: -31px;
+  border-radius: 100%;
+  width: 28px;
+  height: 28px;
+  font-size: 20px;
+  border: 1px solid rgba(194, 191, 193, 1);
+  font-size: 15px;
+  background-color: rgba(40, 35, 32, 1);
+  text-align: center;
+}
+
+.angledown:hover i{
+  color: black;
+}
+
+.angledown:hover {
+  font-weight: bold;
+  background-color: white;
+}
+
+.fa-play {
+  margin: 3px;
+  background: transparent;
+}
+
+.fa-plus {
+  background-color: transparent;
+  margin: 2px;
+}
+
+.fa-thumbs-o-up {
+  background-color: transparent;
+  margin: 2px;
+}
+
+.fa-angle-down {
+  background-color: transparent;
+}
+
+.fa-info {
+  border-radius: 100px;
+}

@@ -1,0 +1,26 @@
+.volumebtn {
+  position: absolute;
+  border: 0.1px solid rgb(151, 149, 151);
+  border-radius: 100%;
+  background-color: transparent;
+  margin-top: -35px;
+  margin-left: 33%;
+  font-size: 13px;
+  width: 28px;
+  height: 28px;
+
+}
+
+.fa-volume-up {
+  background-color: transparent;
+}
+
+.volumebtn:hover i {
+  color: black;
+}
+
+.volumebtn:hover {
+  font-weight: bold;
+  background-color: white;
+  color: black;
+}

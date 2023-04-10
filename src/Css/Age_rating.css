@@ -1,0 +1,9 @@
+.age_rating {
+    background-color: rgba(24, 23, 24, 1);
+    font-size: 8px;
+    color: rgba(194, 191, 193, 1);
+    border: 1px solid rgba(194, 191, 193, 1);
+    position: absolute;
+    margin-left: 95px;
+    width: 35px;
+}

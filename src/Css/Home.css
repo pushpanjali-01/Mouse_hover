@@ -1,0 +1,39 @@
+.container1 {
+  display: inline-flex;
+  padding: 80px;
+}
+
+.thumbnail {
+  height: 415px;
+}
+
+.thumbnail img {
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.thumbnail img:hover {
+  border-bottom-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
+.thumbnail:hover {
+  padding: 0px;
+  transform: scale(1.3);
+  object-fit: cover;
+  background-color: rgba(24, 23, 24, 1);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px black;
+}
+
+.thumbnail:hover img:not(:hover) {
+  border-radius:5px 5px 0 0 !important;
+
+}
+
+.hovercontent {
+  padding: 0px;
+  background-color: rgba(24, 23, 24, 1) !important;
+  height: auto;
+}
